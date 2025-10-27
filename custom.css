@@ -9,7 +9,25 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("file:///Users/veritas/repositories/Vivaldi_Custom/figures/UIUC_logo.svg"); /* 改成你的图标链接 */
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg?token=GHSAT0AAAAAADJSKDIWSR66R6PORI7ZWJUG2H7BBSA"); /* 改成你的图标链接 */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* 隐藏原始 SVG 图标 */
+.bookmark-bar button.folder[data-id="1887"] svg {
+  display: none !important;
+}
+
+/* 加上你自己的图标 */
+.bookmark-bar button.folder[data-id="1887"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg?token=GHSAT0AAAAAADJSKDIWSR66R6PORI7ZWJUG2H7BBSA"); /* 改成你的图标链接 */
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 4px;
