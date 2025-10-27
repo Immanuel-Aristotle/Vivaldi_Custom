@@ -23,11 +23,11 @@
 
 /* 加上你自己的图标 */
 .bookmark-bar button.folder[data-id="1887"]::before {
-  content: "📖";
+  content: "";
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/book-svggrepo-com.svg"); 
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/book-svgrepo-com.svg"); 
   /* 改成你的图标链接 */
   background-size: contain;
   background-repeat: no-repeat;
