@@ -1,0 +1,17 @@
+/* 隐藏原始 SVG 图标 */
+.bookmark-bar button.folder[data-id="930"] svg {
+  display: none !important;
+}
+
+/* 加上你自己的图标 */
+.bookmark-bar button.folder[data-id="930"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("file:///Users/veritas/repositories/Vivaldi_Custom/figures/UIUC_logo.svg"); /* 改成你的图标链接 */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  vertical-align: middle;
+}
