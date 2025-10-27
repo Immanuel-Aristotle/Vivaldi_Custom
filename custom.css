@@ -9,7 +9,7 @@
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg?token=GHSAT0AAAAAADJSKDIWSR66R6PORI7ZWJUG2H7BBSA"); /* 改成你的图标链接 */
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg"); /* 改成你的图标链接 */
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 4px;
@@ -23,11 +23,12 @@
 
 /* 加上你自己的图标 */
 .bookmark-bar button.folder[data-id="1887"]::before {
-  content: "";
+  content: "📖";
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg?token=GHSAT0AAAAAADJSKDIWSR66R6PORI7ZWJUG2H7BBSA"); /* 改成你的图标链接 */
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/book-svggrepo-com.svg"); 
+  /* 改成你的图标链接 */
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 4px;
