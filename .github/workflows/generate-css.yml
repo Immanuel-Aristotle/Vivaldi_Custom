@@ -1,0 +1,45 @@
+name: Generate Vivaldi CSS
+
+on:
+  push:
+    branches:
+      - main  # 你也可以改成其他分支
+    paths:
+      - "config.yaml"
+      - "generate-css.py"
+
+permissions:
+  contents: write  # 允许推送修改到仓库
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎️ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: ⚙️ Generate custom.css
+        run: python generate-css.py
+
+      - name: 🧩 Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain custom.css)" ]; then
+            git add custom.css
+            git commit -m "Auto-generate custom.css [skip ci]"
+            git push
+          else
+            echo "✅ No changes to commit."
+          fi
