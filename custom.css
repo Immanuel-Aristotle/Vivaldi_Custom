@@ -1,17 +1,68 @@
 
 /* === Auto generated CSS for Vivaldi Bookmark Folders === */
 
-/* Folder folders */
-.bookmark-bar button.folder[data-id="folders"] svg {
+/* Folder 930 */
+.bookmark-bar button.folder[data-id="930"] svg {
   display: none !important;
 }
 
-.bookmark-bar button.folder[data-id="folders"]::before {
+.bookmark-bar button.folder[data-id="930"]::before {
   content: "";
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("{930: 'https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg', 1887: 'https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/book-svgrepo-com.svg', 700: 'https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/account-website-svgrepo-com.svg'}");
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* Folder 1887 */
+.bookmark-bar button.folder[data-id="1887"] svg {
+  display: none !important;
+}
+
+.bookmark-bar button.folder[data-id="1887"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/book-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* Folder 700 */
+.bookmark-bar button.folder[data-id="700"] svg {
+  display: none !important;
+}
+
+.bookmark-bar button.folder[data-id="700"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/account-website-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* Folder 673 */
+.bookmark-bar button.folder[data-id="673"] svg {
+  display: none !important;
+}
+
+.bookmark-bar button.folder[data-id="673"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/tool-equipment-svgrepo-com.svg");
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 4px;

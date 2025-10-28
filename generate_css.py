@@ -28,7 +28,7 @@ with open("config.yml", "r") as f:
     config = yaml.safe_load(f)
 
 rules = ""
-for folder_id, url in config.items():
+for folder_id, url in config["folders"].items():
     rules += rule_block.format(id=folder_id, url=url)
 
 with open("custom.css", "w") as f:
