@@ -1,36 +1,54 @@
-/* 隐藏原始 SVG 图标 */
+
+/* === Auto generated CSS for Vivaldi Bookmark Folders === */
+
+/* Folder 930 */
 .bookmark-bar button.folder[data-id="930"] svg {
   display: none !important;
 }
 
-/* 加上你自己的图标 */
 .bookmark-bar button.folder[data-id="930"]::before {
   content: "";
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg"); /* 改成你的图标链接 */
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/UIUC_logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 4px;
   vertical-align: middle;
 }
 
-/* 隐藏原始 SVG 图标 */
+/* Folder 1887 */
 .bookmark-bar button.folder[data-id="1887"] svg {
   display: none !important;
 }
 
-/* 加上你自己的图标 */
 .bookmark-bar button.folder[data-id="1887"]::before {
   content: "";
   display: inline-block;
   width: 18px;
   height: 18px;
-  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/book-svgrepo-com.svg"); 
-  /* 改成你的图标链接 */
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/book-svgrepo-com.svg");
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 4px;
   vertical-align: middle;
 }
+
+/* Folder 700 */
+.bookmark-bar button.folder[data-id="700"] svg {
+  display: none !important;
+}
+
+.bookmark-bar button.folder[data-id="700"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/account-website-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
