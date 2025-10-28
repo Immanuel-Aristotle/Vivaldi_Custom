@@ -5,7 +5,7 @@ on:
     branches:
       - main  # 你也可以改成其他分支
     paths:
-      - "config.yaml"
+      - "config.yml"
       - "generate-css.py"
 
 permissions:
