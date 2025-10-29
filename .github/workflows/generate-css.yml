@@ -6,7 +6,7 @@ on:
       - main  # 你也可以改成其他分支
     paths:
       - "config.yml"
-      - "generate-css.py"
+      - "generate_css.py"
 
 permissions:
   contents: write  # 允许推送修改到仓库
