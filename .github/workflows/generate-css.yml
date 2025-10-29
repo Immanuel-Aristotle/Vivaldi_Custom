@@ -30,7 +30,7 @@ jobs:
           pip install pyyaml
 
       - name: ⚙️ Generate custom.css
-        run: python generate-css.py
+        run: python generate_css.py
 
       - name: 🧩 Commit and push if changed
         run: |
