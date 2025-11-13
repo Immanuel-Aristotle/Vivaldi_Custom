@@ -69,3 +69,20 @@
   vertical-align: middle;
 }
 
+/* Folder 1939 */
+.bookmark-bar button.folder[data-id="1939"] svg {
+  display: none !important;
+}
+
+.bookmark-bar button.folder[data-id="1939"]::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://raw.githubusercontent.com/Immanuel-Aristotle/Vivaldi_Custom/refs/heads/main/figures/plane-svgrepo-com.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
